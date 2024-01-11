@@ -1,0 +1,42 @@
+.taskContainer {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 20px;
+  margin-inline: 10px;
+  margin-top: 10px;
+}
+
+.mainContainer {
+  background-color: rgb(93, 173, 243);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.taskContainer.expired {
+  background-color: red;
+  color: white;
+}
+
+.taskContainer .taskTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.taskContainer .taskDescription {
+  margin-bottom: 10px;
+}
+
+.subtaskContainer {
+  margin-inline: 20px;
+  padding-inline: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: aliceblue;
+}
+
+.subtaskContainer .subtask {
+  margin-bottom: 5px;
+}
+
+.subtaskContainer .subtask input[type="checkbox"] {
+  margin-right: 5px;
+}
